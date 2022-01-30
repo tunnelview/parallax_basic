@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-size: 1.5rem;
 }
 
 p {
@@ -8,9 +9,23 @@ p {
 
 .img1 {
   width: 100vw;
-  height: 100vw;
+  /* height: 100vw; This is incorrect */
+  height: 100vh;
   background: url(./assets/a.jpg) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero {
+  background: rgba(209, 95, 171, 0.5);
+  border-radius: 5px;
+  text-align: center;
+  padding: 2rem;
 }
 
 .img2 {
@@ -34,8 +49,54 @@ p {
   background-size: cover;
 }
 
-.img1 .img2 .img3 .img4 {
+.img2,
+.img3,
+.img4 {
   width: 100vw;
   height: 60vh;
   background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 100px;
+  font-weight: bolder;
+  font-size: 3rem;
+  transform: rotate(90deg);
+  color: white;
+  animation: go-down 1s infinite;
+}
+
+@keyframes go-down {
+  0% {
+    bottom: 100px;
+  }
+  100% {
+    bottom: 50px;
+    color: violet;
+  }
+}
+
+article {
+  width: 80%;
+  margin: auto;
+}
+
+p {
+  margin-left: 0;
+}
+
+.title {
+  background: rgb(73, 68, 68, 0.45);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1rem;
 }
