@@ -19,6 +19,7 @@ p {
   background: url(./assets/a.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
+  text-align: center;
 
   display: flex;
   justify-content: center;
