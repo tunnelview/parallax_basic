@@ -1,4 +1,8 @@
 * {
+  box-sizing: border-box;
+}
+
+* {
   margin: 0;
   font-size: 1.5rem;
 }
@@ -95,13 +99,13 @@ p {
 
 .title {
   background: rgb(73, 68, 68, 0.45);
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border-radius: 5px;
-  width: 100%;
+  /* width: 100%; */
 
   text-transform: uppercase;
   color: white;
   font-weight: bold;
-  letter-spacing: 1rem;
+  letter-spacing: auto;
   font-size: 2rem;
 }
