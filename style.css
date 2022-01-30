@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+}
+
+.img1 {
+  width: 100vw;
+  height: 100vw;
+  background: url(./assets/a.jpg) no-repeat center center;
+  background-size: cover;
+}
