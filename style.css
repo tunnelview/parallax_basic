@@ -54,6 +54,7 @@ p {
   height: 100vw;
   background: url(./assets/a.jpg) no-repeat center center;
   background-size: cover;
+  display: flex;
 }
 
 .img2,
@@ -98,14 +99,17 @@ p {
 }
 
 .title {
+  /* display: flex; */
   background: rgb(73, 68, 68, 0.45);
   padding: 1rem 1rem;
   border-radius: 5px;
   /* width: 100%; */
 
+  text-align: center;
+
   text-transform: uppercase;
   color: white;
   font-weight: bold;
-  letter-spacing: auto;
-  font-size: 2rem;
+  letter-spacing: normal;
+  font-size: 1rem;
 }
