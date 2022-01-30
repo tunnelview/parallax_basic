@@ -97,6 +97,7 @@ p {
   background: rgb(73, 68, 68, 0.45);
   padding: 1rem 2rem;
   border-radius: 5px;
+  width: 100%;
 
   text-transform: uppercase;
   color: white;
